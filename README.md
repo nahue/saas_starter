@@ -2,6 +2,9 @@
 
 # Todo
 * [x] Add Tailwind CSS
+* [ ] Add stripe support
+* [ ] Add google auth
+* [ ] Add 2fa auth
 * [ ] Add Django Unicorn
 * [ ] Setup multitenant auth with RBAC
 * [ ] Add CI/CD github config
