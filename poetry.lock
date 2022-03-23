@@ -189,6 +189,17 @@ python-versions = ">=3.7"
 Django = ">=2.2"
 
 [[package]]
+name = "django-extensions"
+version = "3.1.5"
+description = "Extensions for Django"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+Django = ">=2.2"
+
+[[package]]
 name = "django-tailwind"
 version = "3.1.1"
 description = "Tailwind CSS Framework for Django projects"
@@ -430,7 +441,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "21782be3523d568fe4dae1a5a6b348a27f918815648ba1ac6d6ea42063a8836c"
+content-hash = "57f893417352bfd9b66959bd941f6f498f5124373b22bc5d444faee7fed2ff4a"
 
 [metadata.files]
 arrow = [
@@ -531,6 +542,10 @@ django = [
 django-browser-reload = [
     {file = "django-browser-reload-1.3.0.tar.gz", hash = "sha256:3f9ce1578d23b9ab6af4bf3c9a4416cfea4c9af9e8aca81e0973157a76588285"},
     {file = "django_browser_reload-1.3.0-py3-none-any.whl", hash = "sha256:790e4d9c0a9738437d41ac812741c3f52cc8cd65edad426cabb2f85bde6b94cc"},
+]
+django-extensions = [
+    {file = "django-extensions-3.1.5.tar.gz", hash = "sha256:28e1e1bf49f0e00307ba574d645b0af3564c981a6dfc87209d48cb98f77d0b1a"},
+    {file = "django_extensions-3.1.5-py3-none-any.whl", hash = "sha256:9238b9e016bb0009d621e05cf56ea8ce5cce9b32e91ad2026996a7377ca28069"},
 ]
 django-tailwind = [
     {file = "django-tailwind-3.1.1.tar.gz", hash = "sha256:3791d24f38afd9e0125e2a7e71478cd0981ac07033edd52a6ebae65c3daa5f28"},

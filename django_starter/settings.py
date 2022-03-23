@@ -39,7 +39,7 @@ DJANGO_APPS = [
     "django.contrib.staticfiles",
 ]
 
-THIRD_PARTY_APPS = ["django_unicorn", "tailwind", "django_browser_reload"]
+THIRD_PARTY_APPS = ["django_extensions", "django_unicorn", "tailwind", "django_browser_reload"]
 
 LOCAL_APPS = ["unicorn", "web", "theme"]
 
